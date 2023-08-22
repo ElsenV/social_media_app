@@ -17,7 +17,7 @@ const AdvertWidget = () => {
         <Typography color={medium}>Create Ad</Typography>
       </FlexBetween>
       <img
-        src="http://localhost:3001/assets/kristin-o-karlsen-toK0L4TybPU-unsplash.jpg"
+        src={`${process.env.REACT_APP_BASE_URL}/assets/kristin-o-karlsen-toK0L4TybPU-unsplash.jpg`}
         width="100%"
         height="auto"
         alt="advert"
